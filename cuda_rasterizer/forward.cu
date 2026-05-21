@@ -47,7 +47,7 @@ __device__ glm::vec3 computeColorFromSH(int idx, int deg, int max_coeffs, const 
 				SH_C2[3] * xz * sh[7] +
 				SH_C2[4] * (xx - yy) * sh[8];
 
-			if (deg > 2)
+			if (false)
 			{
 				result = result +
 					SH_C3[0] * y * (3.0f * xx - yy) * sh[9] +
